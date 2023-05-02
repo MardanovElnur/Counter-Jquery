@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin:10rem 0;
+
+}
+.cards{
+    display: flex;
+    width:60%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.text h1{
+    font-weight: bold;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
+}
+.text p{
+    color: rgb(144, 144, 144);
+    margin:20px 0;
+}
+
+.card1{
+    width:380px;
+    height:200px;
+    background: linear-gradient(90deg, rgba(247,157,67,1) 0%, rgba(246,93,217,1) 100%);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:4rem 0;
+ 
+}
+.rum{
+    font-weight: bold;
+    font-size: 40px;
+}
+.txt{
+    margin:10px 0;
+}
+.info i{
+    color: white;
+    font-size: 3rem;
+}
+.inf2{
+    color: white;
+    padding:0 30px;
+}
+.card2{
+    width:380px;
+    height:200px;
+    background: linear-gradient(90deg, rgba(85,91,255,1) 0%, rgba(203,45,255,1) 100%);
+}
+.card3{
+    width:380px;
+    height:200px;
+    background: linear-gradient(90deg, rgba(67,168,247,1) 0%, rgba(67,168,247,1) 100%);
+}
+
+
+.card4{
+    width:380px;
+    height:200px;
+    background: linear-gradient(90deg, rgba(255,85,217,1) 0%, rgba(101,45,255,1) 100%);
+}
